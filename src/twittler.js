@@ -1,6 +1,6 @@
 $(document).ready(function(){
   var $body = $('body');
-  $body.html('');
+  $body.html('<br><br><br><br><br><br><br><br>');
 
   var index = streams.home.length - 1;
   while(index >= 0){
