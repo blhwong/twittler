@@ -47,9 +47,12 @@ table {
   border-spacing: 0;
 }
 body {
+  text-align: center;
+  background-image: url("../img/sky.png");
   background-color: #f5f8fa;
 }
 div {
+  text-align: left;
   background-color: #fff;
   display: block;
   border: 1px solid black;
@@ -60,4 +63,19 @@ div {
 button {
   display: block;
   margin: 0 auto;
+  border: 1px solid gray;
+  padding: 10px;
+  font-size: 14px;
+  color: #0bcef8;
+  background: white;
+  border-radius: 25px;
+}
+h1 {
+  display: inline;
+  background: #fff;
+  text-align: center;
+  font-size: 50px;
+  font-family: helvetica;
+  color: #0bcef8;
+  letter-spacing: 2px;
 }
