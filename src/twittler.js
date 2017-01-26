@@ -1,8 +1,8 @@
 $(document).ready(function(){
   var $body = $('body');
-  $body.html('<br><br><br><br><button type="button">Show New Tweets</button><br><br><br><br>');
+  $body.html('<br><br><h1>Twittler</h1><br><br><button type="button">Show New Tweets</button><br><br><br><br>');
   showTweets();
-  $('a').on('click', showTweets);
+  //$('a').on('click', showTweets);
   $('button').on('click',  showTweets);
   function showTweets() {
     $('.tweet').remove();
